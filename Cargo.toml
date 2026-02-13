@@ -1,0 +1,14 @@
+[package]
+name = "telegram_client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.33.3"
+egui = "0.33.3"
+grammers-client = "0.8"
+grammers-mtsender = "0.8"
+grammers-session = "0.8"
+log = "0.4.29"
+simple_logger = "5.1.0"
+tokio = { version = "1", features = ["full"] }
